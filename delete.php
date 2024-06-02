@@ -27,10 +27,10 @@
                 mysqli_stmt_bind_param($stmt, 's', $ProductName);
                 mysqli_stmt_execute($stmt);
                 if (mysqli_stmt_affected_rows($stmt) == 0) {
-                    echo "<h2>El producto \"$ProductName\" no fue encontrado en el catalago.</h2>";
+                    echo "<h2>El producto \"$ProductName\" no se encuentra.</h2>";
                 }
                 else {
-                    echo "<h2>El producto \"$ProductName\" ha sido removido del catalago.</h2>";
+                    echo "<h2>El producto \"$ProductName\" ha fue borrao.</h2>";
                 }
 
                 mysqli_stmt_close($stmt);
