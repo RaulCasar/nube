@@ -5,13 +5,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Catalago de producto</title>
+	<title>Lista de tienda</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="center-align"> 
-		<h1>Catalago de producto</h1>
-		<p>Cristopher Dered Urbina Alonso - 19051223</p>
+		<h1>Tienda la patrona</h1>
 		<p>Computo en la nube</p>
+		<p>Raul Casar :3 la mera piola</p>
 		<br>
 	</div>
