@@ -28,7 +28,7 @@
         $ProductName = $_POST['ProductName'];
         $Price = $_POST['Price'];
 
-        if ($stmt = mysqli_prepare($conn, "INSERT INTO Products (ProductName, Price) VALUES ($ProductName, $Price)")) {
+        if ($stmt = mysqli_prepare($conn, "INSERT INTO Products (ProductName, Price) VALUES (?,?)")) {
             mysqli_stmt_bind_param($stmt, 'sd', $ProductName, $Price);
             mysqli_stmt_execute($stmt);
             if (mysqli_stmt_affected_rows($stmt) == 0) {
