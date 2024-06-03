@@ -12,9 +12,10 @@
         require "database/config.php";
 
         // Establecer la conexión
-        $conn = mysqli_init();
-        mysqli_ssl_set($conn, NULL, NULL, NULL, NULL);
-        if (!mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306, MYSQLI_CLIENT_SSL)) {
+        // Establecer la conexión sin SSL
+        $conn = mysqli_connect($host, $username, $password, $db_name);
+
+        if (!$conn) {
             die('Failed to connect to MySQL: ' . mysqli_connect_error());
         }
 
