@@ -2,8 +2,8 @@
 session_start();
 
 // Definir usuario y contraseña
-$stored_username = 'admin';
-$stored_password = 'password';
+$stored_username = 'raul';
+$stored_password = 'raul38';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
