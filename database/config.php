@@ -1,8 +1,8 @@
 <?php
-$host       = getenv('DB_HOST');
-$username   = getenv('DB_USERNAME');
-$password   = getenv('DB_PASSWORD');
-$db_name     = getenv('DB_DATABASE');
+$host       = "bd-abb.privatelink.mysql.database.azure.com";
+$username   = "raul";
+$password   = "38RaCasar99*";
+$db_name     = "products";
 
 // Crear la conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
