@@ -1,5 +1,5 @@
 <?php
-$host       = "bd-abb.privatelink.mysql.database.azure.com";
+$host       = "10.0.1.4";
 $username   = "raul";
 $password   = "38RaCasar99*";
 $db_name     = "products";
